@@ -1,0 +1,18 @@
+#canvas-hero,
+#canvas-build {
+  position: fixed;
+  inset: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  will-change: opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+#canvas-hero {
+  opacity: 1;
+}
